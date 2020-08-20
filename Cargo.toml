@@ -1,0 +1,24 @@
+[package]
+name = "toy_rustpython"
+version = "0.1.0"
+authors = ["Alex LordThorsen <alexlordthorsen@gmail.com>"]
+edition = "2018"
+description = "This is a learning project where the point is to learn the Rust programming language by making a toy Python compiler"
+documentation = "https://docs.rs/toy_rustpython"
+homepage = "https://github.com/rawrgulmuffins/toy_rustpython"
+repository = "https://github.com/rawrgulmuffins/toy_rustpython"
+keywords = []
+categories = []
+license = "Apache-2.0 OR MIT"
+
+[badges]
+travis-ci = { repository = "rawrgulmuffins/toy_rustpython", branch = "master" }
+is-it-maintained-issue-resolution = { repository = "rawrgulmuffins/toy_rustpython" }
+is-it-maintained-open-issues = { repository = "rawrgulmuffins/toy_rustpython" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+human-panic = "1.0"
+
+[dev-dependencies]
+doc-comment = "0.3"
